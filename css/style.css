@@ -8,6 +8,10 @@
     width: 100%;
     min-height:100vh;
     background: linear-gradient(45deg,#a700ff,#4d19db);
+    background-image: url(/imgs/backpudu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -23,7 +27,7 @@ nav{
 }
 
 .logo{
-    width: 150px;
+    width: 90px;
 }
 .image{
     width: 550px;
@@ -87,47 +91,18 @@ span{
     color: #4d19db;
     font-weight: 500;
 }
-.elements{
-    position: absolute;
-    left: 0;
-    top: 0;
-    animation: move 2.5s linear  infinite;
-}
-@keyframes move{
-    0%{
-        transform: translate(-15px, 0px);
-    }
-    50%{
-        transform: translate(0px, -15px);
-    }
-   100%{
-        transform: translate(-15px, 0px);
-    }
+
+.contact {
+    width: 100%;
+    min-height:100vh;
+    background: rgb(1,14,43);
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
-.triangle1{
-    position: absolute;
-    left: 50%;
-    top: -180px;
-    transform: translateX(-50%);
-    width: 400px;
-    z-index: -1;
-    opacity: 0,7;
-}
-.triangle2{
-    position: absolute;
-    left: -50px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 400px;
-    z-index: -1;
-    opacity: 0,7;
-}
-.circle{
-    position: absolute;
-    right: -100px;
-    bottom: -300px;
-    width: 500px;
-    z-index: -1;
-    opacity: 0.5;
-}
+
